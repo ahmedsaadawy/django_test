@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    All Days
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "days_plans/all_days.css" %}">
+{% endblock %}
+
+{% block body %}
+    <ul>
+        {% for day in days %}
+            <li><a href="{% url "plans-dynamic-name" day %}">{{ day|title }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+html {
+    font-family: 'Babylonica', cursive;
+}
+
+li {
+    text-decoration: none;
+}

@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FristappConfig(AppConfig):
+class DaysPlansConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'fristapp'
+    name = 'apps.days_plans'
